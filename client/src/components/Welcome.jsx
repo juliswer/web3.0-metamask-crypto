@@ -77,11 +77,11 @@ const Welcome = () => {
 
             <div className="h-[1px] w-full bg-gray-400 my-2" />
 
-            {true ? (
+            {false ? (
               <Loader />
             ) : (
               <div>
-                <button type="button" onClick={handleSubmit}></button>
+                <button type="button" onClick={handleSubmit} className="w-full text-white mt-2 border-[1px] p-2 border-[#3d4f7c] rounded-full">Send Now</button>
               </div>
             )}
 
