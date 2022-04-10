@@ -162,6 +162,7 @@ export const TransactionProvider = ({ children }) => {
         sendTransaction,
         currentAccount,
         formData,
+        transactions,
         setFormData,
         handleChange,
       }}
